@@ -13,5 +13,3 @@ router.get("/catalogo", controller.getAll)
 
 //exportando pra ser usado no app.js
 module.exports = router
-
-

@@ -8,7 +8,6 @@ const app = express() //executei
 //import da continuação das rotas de filme
 const filmesRoutes = require("./routes/filmesRoutes")
 
-
 //criando rota raiz de filmes
 app.use("/filmes", filmesRoutes)
 

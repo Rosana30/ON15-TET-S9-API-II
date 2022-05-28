@@ -17,8 +17,6 @@ const getAll = async (request, response) =>{
 const getById = ()=>{}
 
 //exportando cada função par aser usada nas routers
-
 module.exports = {
-    getAll,
-    getById
+    getAll
 }
